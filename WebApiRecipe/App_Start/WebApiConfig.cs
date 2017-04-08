@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using WebApiRecipe.MessageHandler;
 
 namespace WebApiRecipe
 {
@@ -19,6 +20,9 @@ namespace WebApiRecipe
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+            //config.MessageHandlers.Add(new AntiForgeryMessageHandler());
+            //config.MessageHandlers.Add(new MessageHandler1());
+            config.MessageHandlers.Add(new MessageHandler2());
         }
     }
 }
