@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHostWithOwin", "SelfHos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHostOwinWithWindowsService", "SelfHostOwinWithWindowsService\SelfHostOwinWithWindowsService.csproj", "{EA9CB398-633E-4393-8C5E-041B18EE455C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiRouting", "WebApiRouting\WebApiRouting.csproj", "{CC34F014-7893-4C93-BFE6-2C0E7BAE15D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EA9CB398-633E-4393-8C5E-041B18EE455C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA9CB398-633E-4393-8C5E-041B18EE455C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA9CB398-633E-4393-8C5E-041B18EE455C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC34F014-7893-4C93-BFE6-2C0E7BAE15D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC34F014-7893-4C93-BFE6-2C0E7BAE15D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC34F014-7893-4C93-BFE6-2C0E7BAE15D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC34F014-7893-4C93-BFE6-2C0E7BAE15D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
